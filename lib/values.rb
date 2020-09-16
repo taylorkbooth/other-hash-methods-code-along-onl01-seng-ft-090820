@@ -15,5 +15,6 @@ def get_the_values(groceries)
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
 }
-groceries.values(:dairy, :vegetables, :meat, :grains)
+groceries.values(:dairy, :vegetable, :meat, :grains)
+groceries.values.flatten
 end
