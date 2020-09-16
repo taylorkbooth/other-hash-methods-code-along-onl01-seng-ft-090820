@@ -10,6 +10,9 @@ require 'pry'
 
 def get_the_keys(groceries)
   groceries = {
-    fruit: "Banana"
+    fruit: "Banana", 
+    vegetable: "Broccoli", 
+    dessert: "Cookie"
   }
+  
 end
