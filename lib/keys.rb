@@ -14,5 +14,5 @@ def get_the_keys(groceries)
     vegetable: "Broccoli", 
     dessert: "Cookie"
   }
-  
+  groceries.keys
 end
