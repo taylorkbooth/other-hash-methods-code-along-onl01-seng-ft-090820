@@ -15,4 +15,5 @@ def get_the_keys(groceries)
     dessert: "Cookie"
   }
   groceries.keys
+  binding.pry
 end
